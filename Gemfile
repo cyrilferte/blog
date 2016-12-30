@@ -20,7 +20,7 @@ gem "attachinary"
 gem "jquery-fileupload-rails"
 gem "coffee-rails"
 gem 'cloudinary'
-
+gem 'responders'
 
 group :development, :test do
   gem 'binding_of_caller'
