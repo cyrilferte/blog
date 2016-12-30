@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-  mount Ckeditor::Engine => '/ckeditor'
   mount Attachinary::Engine => "/attachinary"
   root to: "posts#index"
   get "/contact" => "pages#contact"
